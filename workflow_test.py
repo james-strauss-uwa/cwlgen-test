@@ -52,7 +52,7 @@ step2.out.append(step2_output)
 
 
 # add step3 (1st_tool)
-step3 = cwlgen.WorkflowStep('1st_tool', run='./1st_tool.cwl', scatter='message')
+step3 = cwlgen.WorkflowStep('1st_tool', run='./1st-tool.cwl', scatter='message')
 
 # add inputs to step3
 step3_input = cwlgen.WorkflowStepInput('message', source='message_array')
